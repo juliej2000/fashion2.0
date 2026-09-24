@@ -3,9 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Produktliste</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        main {grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));}
+    </style>
 </head>
 <body>
-    
+    <header class="header">
+        <a href="index.html" class="logo">
+        <!-- <span class="film-ikon">🎬</span> -->
+        <span>Julies filmunivers</span>
+        </a>
+
+        <nav class="navigation">
+            <a href="index.html">Forside</a>
+            <a href="dvder.html">DVDER</a>
+            <a href="blu-ray.html">BLU-RAY</a>
+            <a href="4K HD.html">4K HD</a>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+         <article class="card">
+            <h2>Titel</h2>
+            <h3>Type</h3>
+            <p>pris</p>
+            <p>Stand</p>
+            <p>Information</p>
+            <p>Tekst</p>
+            <button>Læs mere</button>
+         </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>© 2026 Min Virksomhed. Alle rettigheder forbeholdes.</p>
+    </footer>
+    <script src="productlist.js"></script>
 </body>
 </html>
